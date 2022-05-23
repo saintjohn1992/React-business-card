@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+.bkg-img {
+  background: url(./images/pic-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 317px;
+  height: 265px;
+  left: 116px;
+  top: 47px;
+  border-radius: 10px 10px 0px 0px;  
+}
+
+
+body {
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 374px;
+  top: -359px;
+  margin: auto;
+  background: #23252C;
+
+  text-align: center;
+}
+
+.email-button {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  text-align: center;
+  margin: auto;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  width: 247px;
+  height: 34px;
+  left: 151px;
+  top: 469px;
+}
+
+.info-container {
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.shared-box {
+  color: whitesmoke;
+  background: #1A1B21;
+  width: 317px;
+  height: 664px;  
+  margin-left: 116px;
+  margin-top: 361px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  text-align: center;
+  
+}
+
+.portfolio-link {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  text-align: center;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15.49px;
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30.26px;
+  text-align: center;
+}
+ .footer {
+  width: 317px;
+  height: 40px;
+  left: 116px;
+  top: 760px;
+  margin: auto;
+  justify-content: center;
+  
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+ }
+
+ .fa {
+  left: 65.55%;
+  right: 29.91%;
+  top: 89.8%;
+  bottom: 7.32%;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  
+  color: #918E9B;
+ }
+
+.about-section {
+  padding: 10px;
+}
+
+.interest-section {
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+  
+}
